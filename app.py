@@ -10,7 +10,6 @@ def modify_links(soup):
         if not a_tag.has_attr('target') or a_tag['target'] != '_blank':
             a_tag['target'] = '_blank'
 
-
 def process_html_code(html_code):
     try:
         soup = BeautifulSoup(html_code, 'html.parser')
