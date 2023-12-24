@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML Link Modifier</title>
+  </head>
+  <body>
+    <h1>HTML Link Modifier</h1>
+
+    <form id="htmlForm">
+      <textarea id="htmlCode" placeholder="Enter HTML code"></textarea>
+      <br />
+      <button type="button" onclick="processHtmlCode()">
+        Modify HTML Code
+      </button>
+    </form>
+
+    <br />
+
+    <form id="fileForm" enctype="multipart/form-data">
+      <input type="file" name="file" accept=".html, .htm, .txt" />
+      <br />
+      <button type="button" onclick="uploadFile()">
+        Upload and Modify File
+      </button>
+    </form>
+
+    <br />
+
+    <div id="result"></div>
+
+    <script>
+      function processHtmlCode() {
+        var htmlCode = document.getElementById("htmlCode").value;
+        fetch("/process", {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/x-www-form-urlencoded",
+          },
+          body: "html_code=" + encodeURIComponent(htmlCode),
+        })
+          .then((response) => response.text())
+          .then(
+            (result) => (document.getElementById("result").innerHTML = result)
+          );
+      }
+
+      function uploadFile() {
+        var fileInput = document.querySelector('input[type="file"]');
+        var file = fileInput.files[0];
+        var formData = new FormData();
+        formData.append("file", file);
+        fetch("/upload", {
+          method: "POST",
+          body: formData,
+        })
+          .then((response) => response.text())
+          .then(
+            (result) => (document.getElementById("result").innerHTML = result)
+          );
+      }
+    </script>
+  </body>
+</html>
