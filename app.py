@@ -48,7 +48,7 @@ def upload():
     file_path = 'uploads/' + file.filename
     file.save(file_path)
     result = process_html_file(file_path)
-    return result  # Return the modified code instead of a message
+    return result  
 
 
 @app.route('/download', methods=['POST'])

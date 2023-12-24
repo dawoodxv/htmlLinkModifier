@@ -1,58 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Your Website</title>
-    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}" />
-</head>
-<body>
+    <title>HTML Link Modifier</title>
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='css/style.css') }}"
+      id="theme-stylesheet"
+    />
+    <script src="{{ url_for('static', filename='js/darkmode.js') }}"></script>
+  </head>
+  <body>
     <canvas id="bgCanvas"></canvas>
 
-    <div class="content">
+    <div id="content-wrapper">
+      <div class="content">
         <h1>HTML Link Modifier</h1>
         <p>
-            Modify your HTML code by adding <code>target="_blank"</code> attribute
-            to external links.
+          Enhance your HTML code effortlessly by ensuring that all external
+          links open in a new tab. Simply modify your HTML code with the
+          addition of the
+          <code>target="_blank"</code> attribute, providing a seamless
+          experience for users exploring your website.
         </p>
         <div id="githubLink">
-            <a
-                href="https://github.com/dawoodxv/html_link_modifier"
-                target="_blank"
-            >
-                GitHub Repository
-            </a>
+          <a
+            href="https://github.com/dawoodxv/html_link_modifier"
+            target="_blank"
+          >
+            GitHub Repository
+          </a>
         </div>
+      </div>
     </div>
 
     <div class="flex-container">
-        <div class="flex-item">
-            <form id="htmlForm">
-                <textarea id="htmlCode" placeholder="Paste HTML code here"></textarea>
-                <button type="button" onclick="processHtmlCode()">Modify HTML Code</button>
-                <input type="file" name="file" accept=".html, .htm, .txt" />
-                <br />
-                <button type="button" onclick="uploadFile()">Upload and Modify File</button>
-            </form>
-        </div>
+      <div class="flex-item">
+        <form id="htmlForm">
+          <textarea
+            id="htmlCode"
+            placeholder="Paste HTML code here!"
+          ></textarea>
+          <button type="button" onclick="processHtmlCode()">
+            Modify HTML Code
+          </button>
+          <input type="file" name="file" accept=".html, .htm, .txt" />
+          <br />
+          <button type="button" onclick="uploadFile()">
+            Upload and Modify File
+          </button>
+        </form>
+      </div>
 
-        <div class="flex-item">
-            <div id="result">
-                <textarea id="modifiedCode" placeholder = "" readonly></textarea>
-                <button id="copyBtn" onclick="copyToClipboard()">Copy Code</button>
-                <form id="downloadForm" method="POST" action="/download">
-                    <input type="hidden" id="modifiedCodeInput" name="modified_code" />
-                    <label for="formatOption">Download Format:</label>
-                    <select id="formatOption" name="format_option">
-                        <option value="html">HTML</option>
-                        <option value="txt">Text</option>
-                    </select>
-                    <button type="submit">Download File</button>
-                </form>
-            </div>
+      <div class="flex-item">
+        <div id="result">
+          <textarea
+            id="modifiedCode"
+            placeholder="Modified HTML Code will be here!"
+            readonly
+          ></textarea>
+          <button id="copyBtn" onclick="copyToClipboard()">Copy Code</button>
+          <form id="downloadForm" method="POST" action="/download">
+            <input type="hidden" id="modifiedCodeInput" name="modified_code" />
+            <label for="formatOption">Download Format:</label>
+            <select id="formatOption" name="format_option">
+              <option value="html">HTML</option>
+              <option value="txt">Text</option>
+            </select>
+            <button type="submit">Download File</button>
+          </form>
         </div>
+      </div>
+    </div>
+
+    <div class="dark-mode-toggle">
+      <label for="darkModeToggle">Dark Mode:</label>
+      <input type="checkbox" id="darkModeToggle" onchange="toggleDarkMode()" />
     </div>
 
     <script src="{{ url_for('static', filename='js/script.js') }}"></script>
-</body>
+  </body>
 </html>
