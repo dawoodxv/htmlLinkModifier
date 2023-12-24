@@ -123,9 +123,3 @@ function updateCanvasSize() {
 createParticles();
 setInterval(drawParticles, 30);
 window.addEventListener("resize", updateCanvasSize);
-
-// GitHub Link Image
-var githubLink = document.getElementById("githubLink");
-var githubImage = document.createElement("img");
-githubImage.src = "https://image-url/github-icon.png";
-githubLink.prepend(githubImage);
