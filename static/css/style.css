@@ -1,0 +1,113 @@
+body {
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  margin: 0;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+  background-color: #f8f8f8;
+  color: #333;
+  position: relative;
+}
+
+.content {
+  text-align: center;
+}
+
+h1 {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+  color: #0070c9;
+}
+
+p {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+  color: #555;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-around;
+  width: 80%;
+  margin-top: 50px;
+}
+
+.flex-item {
+  width: 48%;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+textarea {
+  width: 100%;
+  height: 400px;
+  padding: 20px;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+  resize: none;
+}
+
+button {
+  width: 100%;
+  padding: 15px;
+  background-color: #0070c9;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+button:hover {
+  background-color: #004a80;
+}
+
+input[type="file"] {
+  width: 100%;
+  align-items: center;
+}
+
+#result {
+  width: 100%;
+}
+
+textarea#modifiedCode {
+  height: 400px;
+  width: 100%;
+}
+
+form#downloadForm {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+#githubLink {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  color: #555;
+}
+
+#githubLink img {
+  width: 30px;
+  height: auto;
+  margin-right: 10px;
+}
+
+canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}

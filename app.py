@@ -1,4 +1,4 @@
-from flask import Flask, render_template, request
+from flask import Flask, render_template, request, send_file
 from bs4 import BeautifulSoup
 import os
 
@@ -25,9 +25,7 @@ def process_html_file(file_path):
         with open(file_path, 'r', encoding='utf-8') as file:
             html_code = file.read()
         modified_code = process_html_code(html_code)
-        with open(file_path, 'w', encoding='utf-8') as file:
-            file.write(modified_code)
-        return f"Modification complete. HTML code in '{file_path}' updated."
+        return modified_code
     except Exception as e:
         return f"Error: {e}"
 
@@ -50,10 +48,26 @@ def upload():
     file_path = 'uploads/' + file.filename
     file.save(file_path)
     result = process_html_file(file_path)
-    return result
+    return result  # Return the modified code instead of a message
+
+
+@app.route('/download', methods=['POST'])
+def download():
+    modified_code = request.form['modified_code']
+    format_option = request.form['format_option']
+
+    file_extension = 'html' if format_option == 'html' else 'txt'
+    file_path = f'downloads/modified_code.{file_extension}'
+
+    with open(file_path, 'w', encoding='utf-8') as file:
+        file.write(modified_code)
+
+    return send_file(file_path, as_attachment=True)
 
 
 if __name__ == "__main__":
     if not os.path.exists('uploads'):
         os.makedirs('uploads')
+    if not os.path.exists('downloads'):
+        os.makedirs('downloads')
     app.run(debug=True)
