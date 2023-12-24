@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+	<meta charset="utf-8">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<title>Course Unit</title>
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<!-- Bootstrap CDN CSS -->
+	<link rel="stylesheet" href="/content/enforced3/554253-23422.202390/Content/Unit Files/../../Course%20Templates/assets/thirdpartylib/bootstrap-3.3.6/css/bootstrap.min.css">
+	
+	<!-- Font Awesome CDN CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+   
+	<!-- Course Styles -->
+  <link rel="stylesheet" href="/content/enforced3/492062-CM_SWRK2080_052022/Content/Unit Files/../../HTML%20Template/Brightspace_HTML_Template/_assets/css/styles.min.css">
+	<link rel="stylesheet" href="/content/enforced3/554253-23422.202390/Content/Unit Files/../../Course%20Templates/Fantastic%20Theme/assets/css/main.min.css">
+</head><body class="content"><div class="container-fluid"><main>
+<div class="row">
+<div class="col-sm-12">
+<div class="container-fluid"><header>
+<div class="row">
+<div class="col-sm-12 banner intro-header">
+<div class="row">
+<div class="well-header banner-overlay">
+<h1 style="text-align: center;">Topic 1: The History of the Social Work Profession and Professional Identity</h1>
+</div>
+</div>
+</div>
+</div>
+</header><main>
+<div class="row">
+<div class="col-sm-12">
+<h2 class="page-header header-two" style="text-align: left;"><span style="color: rgb(89, 126, 170);">Introduction</span></h2>
+<p>Social work is a dynamic field that started as a movement to reduce poverty and inequality. In Canada, social work began with a group of home visitors—volunteers driven to help vulnerable people, spread hope and advocate for social justice. Over the past century, social work has evolved into an academic discipline and regulated profession founded on theories of social work, social science and humanities (CASW). In this unit students introduced to the historical context of Social work profession from its early beginning to present day development and what it means to be a professional Social Worker.</p>
+<p>This process involves adopting the attitudes, values, knowledge, beliefs, and skills that differentiate social work from other professions. But what does it really mean to say you are a social worker- this unit will lay the ground work to help answer that question.</p>
+<h2 class="page-header header-two" style="text-align: left;"><span style="color: #597eaa;">Learning Objectives</span></h2>
+<h3 style="text-align: left;"><em><span style="font-size: 14pt; color: #597eaa;">By the end of this unit you should be able to:</span></em></h3>
+<ul class="checklist" style="text-align: left;">
+<li>Comprehend SWRK 1240 course objectives and expectations, as outlined in the course syllabus and accompanying course assignment package.&nbsp;</li>
+<li>Identify and understand historical foundational concepts and issues and their application to Canadian social work practice.</li>
+<li>Explain the historical contributions of individuals and social groups to Canadian social work philosophy and practice.</li>
+<li>Identify factors that contribute to becoming and being a professional social worker, having and sustaining a professional identity including self-concept, personal values and location and position within their future social work practice</li>
+<li>Identify the pressures and resistance to the professionalizing process of Social Work</li>
+<li>Articulate a variety of ways to develop the meta- competency of identifying as a professional social worker.</li>
+</ul>
+<h2 class="page-header header-two" style="text-align: left;"><span style="color: #597eaa;">How to Proceed</span></h2>
+<ol style="text-align: left;">
+<li>Review&nbsp; the Course Syllabus for SWRK 1240 and understand the content including your rights and responsibilities as a student.</li>
+<li>Review and prepare notes from the required readings &amp; links.</li>
+<li>Read through Instructional Content</li>
+<li>Prepare for the up coming web conference session by:
+<ul style="list-style-type: circle;">
+<li>Reviewing the PowerPoint slides for this unit.</li>
+<li>Bring discussion points to class from the Carlton-LeNey article<b> </b></li>
+<li>
+<p style="text-align: left;">Watch -<a href="https://www.socialworker.com/extras/video/social-work-in-context-video/" target="_self" rel="noopener">Social Work in Context - Video - SocialWorker.com</a>&nbsp;(5 minutes) about MSW level Social workers perspectives on the meaning of Social Work.</p>
+<ul style="text-align: left;">
+<li style="list-style-type: none;">
+<ul start="3">
+<li style="text-align: left;">Consider the questions from the video and reflect on whether or not your agree /disagree with any of the interviewees perspectives and why?</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ol>
+<h2 class="page-header header-two" style="text-align: left;"><span style="color: rgb(89, 126, 170);">Instructional Content</span></h2>
+<ol style="text-align: left;"></ol>
+<p>For early French settlers in Canada , human welfare was considered the responsibility of individuals and families. Where relief was available it was delivered by the Catholic Church through numerous entities operating at the parish level. Services provided to those requiring assistance were differentiated according to distinctions made between the deserving poor and the undeserving poor. Among Anglo-Canadian communities in Quebec, models of charitable provision were similar to those offered by the Catholic Church, except that they tended to be organized and delivered by middle-class and wealthy women through benevolent societies(Ives, Denov, and Sussman, 2015).</p>
+<p>In general, the earliest versions of social work took the form of private charities and poor relief.</p>
+<ul>
+<li>Private charities. An early approach to social work that involved private individuals and religious organizations that provided material relief to the poor.</li>
+<li>Poor relief. The “Poor Laws” signaled a progression from private charity toward public welfare, whereby the care and supervision of the poor was the responsibility of each town, village, or hamlet.</li>
+</ul>
+<p>In 1897, at a conference of Charities and Correction in Toronto, Mary Richmond,&nbsp;delivered a paper titled “The Need for a Training School of Applied Philanthropy &nbsp;(Jennisen, 2011). In this presentation, she stated that if those doing social work were to become an effective force in the solution of social problems and the development of community organizations, there was a need for an educational system specifically for social workers. From these beginnings, the professionalization movement gained momentum in the US and Canada, and by 1905, lectures for social workers were under way in Chicago, Boston, and Philadelphia. Several years later, organized social work education began to take place in Canada. While there are many requirements associated professional identity, exactly how they incorporated and understood in each context is unique.</p>
+<p>Social work grew slowly during the 1920s and 1930s. In 1926 the Canadian Association of Social Workers was formed, with its first charter members drawn principally from child and family welfare agencies, municipal departments and settlement houses.</p>
+<p><span style="color: rgb(74, 143, 0);"><b>WHAT IT MEANS OT BE A PROFESSIONAL SOCIAL WORKER</b></span></p>
+<p>&nbsp;The CASWE-ACFTS Standards for Accreditation (2014) require schools of social work to support students in “identify[ing] as a professional social worker and adopt[ing] a value perspective of the social work profession.” This process involves adopting the attitudes, values, knowledge, beliefs, and skills that differentiate social work from other professions” (Stokes, 2020). But what does it really mean to say you are a social worker? Of course, there is no single definition. Each social worker understanding of what it means to be a social worker is unique to&nbsp;them.&nbsp; According to the International Federation of Social Workers [IFSW], Social work is a practice-based profession and an academic discipline that promotes social change and development, social cohesion, and the empowerment and liberation of people. Principles of social justice, human rights, collective responsibility and respect for diversities are central to social work (IFSW, 2014).</p>
+<p>The understanding of social work’s profession historical development and the attainment of the profession’s Meta competencies enables social workers to feel confident about their ability to practice and provides safeguards for service users who can then trust they are receiving competent services based on accurate and current knowledge in the&nbsp;field (Stokes, 2020).</p>
+<p></p>
+<div class="card card-standard">
+<div class="card-body">
+<p style="text-align: center;"><iframe src="https://pressbooks.openedmb.ca/swrk1240/wp-admin/admin-ajax.php?action=h5p_embed&amp;id=1" width="958" height="691" frameborder="0" allowfullscreen="allowfullscreen" title="SWRK 1240 - Unit 1 - Timeline Drag and Drop"></iframe></p>
+</div>
+</div>
+<p style="text-align: left;">
+<script src="https://pressbooks.openedmb.ca/app/plugins/h5p/h5p-php-library/js/h5p-resizer.js" charset="UTF-8"></script>
+</p>
+<h2 class="page-header header-two" style="text-align: left;"><span style="color: rgb(89, 126, 170);">Required &amp; Supplementary Readings</span></h2>
+<div class="well well-graphic" style="text-align: left;">
+<div class="well-text">
+<p><strong>Required Readings</strong></p>
+<ul>
+<li>Stokes, J. (2020). <i>Social work practice in Canada: Knowledge values and skills</i>. Thompson Educational Publishing, Inc. Chapter *#*</li>
+<li><a href="https://www.casw-acts.ca/files/attachements/casw_code_of_ethics_0.pdf" target="_self" rel="noopener">Canadian Association of Social Workers. (2005). Code of Ethics.</a></li>
+<li><a target="_self" href="https://www.casw-acts.ca/files/attachements/casw_guidelines_for_ethical_practice_e.pdf" rel="noopener">Canadian Association of Social Workers. (2005). Guidelines for Ethical Practice.</a></li>
+<li><a target="_self" href="https://mcsw.ca/wp-content/uploads/2018/04/Code-of-Ethics-MAR-2018-WEB.pdf" rel="noopener"><i>Manitoba College of Social Workers Code of Ethics (March 2018).</i></a></li>
+<li><a target="_self" href="https://mcsw.ca/wp-content/uploads/2021/09/Standards-of-Practice-SEP-2021-WEB.pdf" rel="noopener"><i>Manitoba College of Social Workers. (March 2018)&nbsp;Standards for Practice.</i></a></li>
+<li>Jennissen, T.; Lundy, C. (2011).&nbsp; <i>One Hundred Years of Social Work.</i>&nbsp; Wilfred Laurier University Press</li>
+<li>Carlton-LaNey, Iris. (1994). “The Career of Birdye Henrietta Haynes, a Pioneer Settlement House Worker”. <i>Social Service Review</i>, Volume 68, Number 2, p.254-273</li>
+<li>Webb, Stephen A. Editor. (2017). Professional Identity and Social Work.&nbsp; Taylor and Francis Routledge.&nbsp; New York.</li>
+</ul>
+<p><strong>Supplementary Readings</strong></p>
+<ul>
+<li>
+<p>Ives, N., Denov, M., and Sussman,T (2015). Introduction to social work in Canada: Histories, contexts, and practices. Oxford University Press ISBN: 13-978-0-19-900317-4. Chapter 3</p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</main></div>
+<p style="text-align: left;"></p>
+</div>
+</div>
+</main></div></body></html>

@@ -34,14 +34,14 @@ def process_html_file(file_path):
 
 @app.route('/')
 def index():
-    return render_template('index.html')
+    return render_template('index.html', modified_code=None)
 
 
 @app.route('/process', methods=['POST'])
 def process():
     html_code = request.form['html_code']
-    result = process_html_code(html_code)
-    return result
+    modified_code = process_html_code(html_code)
+    return modified_code
 
 
 @app.route('/upload', methods=['POST'])

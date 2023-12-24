@@ -9,7 +9,11 @@
     <h1>HTML Link Modifier</h1>
 
     <form id="htmlForm">
-      <textarea id="htmlCode" placeholder="Enter HTML code"></textarea>
+      <textarea
+        id="htmlCode"
+        placeholder="Enter HTML code"
+        style="height: 200px"
+      ></textarea>
       <br />
       <button type="button" onclick="processHtmlCode()">
         Modify HTML Code
@@ -28,7 +32,11 @@
 
     <br />
 
-    <div id="result"></div>
+    <div id="result">
+      <h2>Modified HTML Code:</h2>
+      <textarea id="modifiedCode" readonly style="height: 200px"> </textarea>
+      <button onclick="copyToClipboard()">Copy Code</button>
+    </div>
 
     <script>
       function processHtmlCode() {
@@ -41,9 +49,14 @@
           body: "html_code=" + encodeURIComponent(htmlCode),
         })
           .then((response) => response.text())
-          .then(
-            (result) => (document.getElementById("result").innerHTML = result)
-          );
+          .then((result) => {
+            var modifiedCodeTextarea = document.getElementById("modifiedCode");
+            if (modifiedCodeTextarea) {
+              modifiedCodeTextarea.value = result; // Update only the modifiedCode textarea
+            } else {
+              console.error("Element with ID 'modifiedCode' not found");
+            }
+          });
       }
 
       function uploadFile() {
@@ -56,9 +69,17 @@
           body: formData,
         })
           .then((response) => response.text())
-          .then(
-            (result) => (document.getElementById("result").innerHTML = result)
-          );
+          .then((result) => {
+            document.getElementById("result").innerHTML = result;
+          });
+      }
+
+      function copyToClipboard() {
+        var copyText = document.getElementById("modifiedCode");
+        copyText.select();
+        copyText.setSelectionRange(0, 99999); /* For mobile devices */
+        document.execCommand("copy");
+        alert("Code copied to clipboard!");
       }
     </script>
   </body>
