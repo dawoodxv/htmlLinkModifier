@@ -6,11 +6,17 @@ addition of the
 <code>target="\_blank"</code> attribute, providing a seamless
 experience for users exploring your website. Choose the method that suits you best!
 
+## Live Demo
+
+Check out the live demo <a href="https://html-link-modifier.onrender.com/" target="_blank">here</a>. Upload and download feature not supported in the demo.
+
 ## Method 1: Command Line
 
 ### Prerequisites:
 
-- Python installed on your system.
+- Python3
+- Flask
+- beautifulsoup4
 
 ### Edit HTML File:
 
