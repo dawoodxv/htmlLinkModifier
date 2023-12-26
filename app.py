@@ -69,4 +69,4 @@ if __name__ == "__main__":
         os.makedirs('uploads')
     if not os.path.exists('downloads'):
         os.makedirs('downloads')
-    app.run(debug=True)
+    app.run()
