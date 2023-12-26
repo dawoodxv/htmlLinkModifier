@@ -43,11 +43,19 @@ def process():
 
 @app.route('/upload', methods=['POST'])
 def upload():
-    file = request.files['file']
-    file_path = 'uploads/' + file.filename
-    file.save(file_path)
-    result = process_html_file(file_path)
-    return result  
+    try:
+        file = request.files['file']
+        
+        if file:
+            file_path = os.path.join('uploads', file.filename)
+            file.save(file_path)
+            result = process_html_file(file_path)
+            return result
+        else:
+            return "Error: No file provided."
+
+    except Exception as e:
+        return f"Error: {e}" 
 
 
 @app.route('/download', methods=['POST'])
