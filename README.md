@@ -8,15 +8,18 @@ experience for users exploring your website. Choose the method that suits you be
 
 ## Live Demo
 
-Check out the live demo <a href="https://html-link-modifier.onrender.com/" target="_blank">here</a>. Upload and download feature not supported in the demo.
+Check out the live demo <a href="https://html-link-modifier.onrender.com/" target="_blank">here</a>. 
+```
+Note: Upload and download feature not supported in the demo and the initial load may take a few minutes because of the use of free tier service.
+```
 
-## Method 1: Command Line
-
-### Prerequisites:
+## Prerequisites:
 
 - Python3
 - Flask
 - beautifulsoup4
+
+## Method 1: Command Line
 
 ### Edit HTML File:
 
